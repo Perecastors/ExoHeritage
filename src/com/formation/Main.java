@@ -6,6 +6,7 @@ package com.formation;
 public class Main {
 
     public static void main(String[] args) {
-
+            Personne poto = new Personne("Jean","Michel");
+        poto.calculerAge();
     }
 }
